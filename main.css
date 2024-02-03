@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, sans-serif;
+    background-color: rgba(165, 165, 164, 0.1)
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+header img{
+   height: 90px;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: red;
+}
+
+header li{
+    display: inline;
+    margin-right: 15px;
+}
+
+.wall-limit{
+    margin-right: 50px;
+}
+
+#artigo-flex{
+    display: flex;
+    align-items: center;
+ }
+
+#artigo-flex img{
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    padding: 40px;
+}
+
+.artigo h2{
+    margin-bottom: 16px;
+    color: rgb(54, 54, 54);
+}
+
+.artigo p{
+    margin-bottom: 2px;
+}
+
+#rodape h2{
+    margin-top: 20px;
+    margin-left: 38px;
+    margin-bottom: 8px;
+    color: rgb(54, 54, 54);
+}
+
+#rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+form input, textarea, button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 38px;
+    font-family: system-ui, sans-serif;
+}
+
+form button{
+    cursor: pointer;
+}
+
+form textarea{
+    resize: none;
+}
+
+#rodape img{
+    height: 38px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+#rodape a{
+    text-decoration: none;
+}
